@@ -6,13 +6,14 @@ function convertToBool(text, fault = 'true') {
 }
 
 module.exports = {
-    SESSION_ID: process.env.SESSION_ID || "",
+    SESSION_ID: process.env.SESSION_ID || "suho~om9UmTTb#zRyJ5qqflCJNrk3HfYiQX6D2ZgaPfRsfTwnXUstqHKkp",
     // add your Session Id make sure it starts with suho~
 
     PREFIX: process.env.PREFIX || ".",
     // add your prefix for bot
 
-    BOT_NAME: process.env.BOT_NAME || "sᴜɴɢ-sᴜʜᴏ-ᴍᴅ",
+    BOT_NAME: process.env.BOT_NAME || "Tannia-"
+   ᴅ",
     // add bot name here for menu
 
     MODE: process.env.MODE || "public",
@@ -100,13 +101,13 @@ module.exports = {
     AUTO_STICKER: process.env.AUTO_STICKER || "false",
     // make true for automatic stickers 
 
-    AUTO_REPLY: process.env.AUTO_REPLY || "false",
+    AUTO_REPLY: process.env.AUTO_REPLY || "true",
     // make true or false automatic text reply 
 
-    ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || "false",
+    ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || "true",
     // make true for always online 
 
-    PUBLIC_MODE: process.env.PUBLIC_MODE || "false",
+    PUBLIC_MODE: process.env.PUBLIC_MODE || "true",
     // make false if want private mode
 
     AUTO_TYPING: process.env.AUTO_TYPING || "false",
@@ -115,7 +116,7 @@ module.exports = {
     READ_CMD: process.env.READ_CMD || "false",
     // true if want mark commands as read  
 
-    DEV: process.env.DEV || "27813374457",
+    DEV: process.env.DEV || "263776369078",
     // replace with your whatsapp number  
 
     ANTI_VV: process.env.ANTI_VV || "true",
