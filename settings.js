@@ -48,10 +48,10 @@ module.exports = {
     MENTION_REPLY: process.env.MENTION_REPLY || "false",
     // make true if want auto voice reply if someone mention you 
 
-    MENU_IMAGE_URL: process.env.MENU_IMAGE_URL || "https://files.catbox.moe/eeeypw.jpg",
+    MENU_IMAGE_URL: process.env.MENU_IMAGE_URL || "https://files.catbox.moe/pyda5w.jpg",
     // add custom menu and mention reply image url
 
-    ALIVE_IMG: process.env.ALIVE_IMG || "https://files.catbox.moe/vcofni.jpg",
+    ALIVE_IMG: process.env.ALIVE_IMG || "https://files.catbox.moe/pyda5w.jpg",
     // add img for alive msg
 
     LIVE_MSG: process.env.LIVE_MSG || 
@@ -127,7 +127,7 @@ module.exports = {
     AUTO_RECORDING: process.env.AUTO_RECORDING || "false",
     // make it true for auto recording 
 
-    version: process.env.version || "1.0.0-alpha"
+    version: process.env.version || "1.5.0(shadow update)"
 
     
 };
